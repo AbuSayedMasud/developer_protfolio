@@ -20,6 +20,7 @@ h1{
 section
 {
     display: flex;
+    margin-bottom: 140px;
 }
 .half-width
 {
@@ -44,15 +45,23 @@ section
 /*midddle area*/
 .middle-area
 {
-    padding-top: 150px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.middle-half
+.middle-area .middle-text
 {
-    width: 50%;
-    padding-left: 5%;
+margin-right: 130px;
 }
-.middle-half img
+.middle-area .middle-img
 {
-    width: 80%;
-    margin-left: 100px;
+    margin-left: 130px;
+}
+.middle-area .middle-text h2
+{
+    font-size: 40px;
+    
+}
+.middle-area .middle-text p{
+color: #888a8b;
 }
